@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #f8f2ef;
+}
+.container {
+  position: relative;
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: 110px;
+  background-color: #fff;
+  border: 1px;
+  box-shadow: 9px 9px 16px rgba(51, 51, 51, 0.25);
+}
+
+.logo .logo-img {
+  justify-content: left;
+  margin: 0 auto;
+}
+
+.button {
+  display: block;
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  font-size: 12px;
+  background: #333333;
+  border-radius: 6px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+}
+
+.header_nav .nav_link {
+  padding-left: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #333333;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.container_main {
+  position: relative;
+  width: 1100px;
+  margin: 50px auto;
+}
+h1 {
+  margin-top: 73px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+}
+.exp_c {
+  margin-left: 173px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+}
+.main {
+  margin-top: 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box {
+  width: 338px;
+  height: 400px;
+  background: none;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  transition: all 0.4s;
+  cursor: pointer;
+  transform: scale(0.9);
+}
+.box img {
+  width: 338px;
+  height: 400px;
+  margin-top: 0px;
+}
+.box:hover {
+  height: 400px;
+}
+.box .details {
+  position: absolute;
+  bottom: 30px;
+  left: 25px;
+  display: flex;
+  opacity: 0;
+  color: rgb(54, 54, 54);
+  font-size: 1.2rem;
+  z-index: 1;
+  transition: all 0s;
+}
+.box i {
+  margin-right: 5px;
+}
+.box:hover .details {
+  opacity: 1;
+  transition: all 0.4s;
+}
+.details::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 8px;
+  background: none;
+  bottom: 0;
+}
+.text_decoration {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.container_main .down_icon {
+  display: block;
+  margin: 98px auto;
+}
